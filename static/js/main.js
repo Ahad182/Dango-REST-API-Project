@@ -5,10 +5,10 @@
 // method = get 
 
 const root = document.querySelector('.root');
-const url = 'http://127.0.0.1:3000/api/posts';
-const url2 = 'http://127.0.0.1:3000/api/posts/delete';
-const url3 = 'http://127.0.0.1:3000/api/posts/create/';
-const url4 = 'http://127.0.0.1:3000/api/posts/update';
+const url = 'http://127.0.0.1:8000/api/posts';
+const url2 = 'http://127.0.0.1:8000/api/posts/delete';
+const url3 = 'http://127.0.0.1:8000/api/posts/create/';
+const url4 = 'http://127.0.0.1:8000/api/posts/update';
 const GetFormId = document.querySelector('#postForm');
 const GetTitleValue = document.getElementById('title');
 const GetContentValue = document.getElementById('content');
